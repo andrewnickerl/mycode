@@ -24,7 +24,7 @@ elif q1 == "2":
 elif q1 == "3":
     results["Assassin (sneak, daggers, archery)"] += 1
     results["Marksman (archery, light armor)"] += 1
-    results["Night Blade (daggers, illusion magic, sneak)"]
+    results["Night Blade (daggers, illusion magic, sneak)"] += 1
 
 ## adds points toward appropriate classes for question two
 if q2 == "1":
@@ -58,11 +58,11 @@ if q4 == "1":
     results["Knight (sword, shield, heavy armor)"] += 1
     results["Templar (sword, restoration magic)"] += 1
     results["Warrior (two-handed weapon, heavy armor)"] += 1
-    results["Battlemage (heavy armor, destruction, and restoration magic)"]
+    results["Battlemage (heavy armor, destruction, and restoration magic)"] += 1
 elif q4 == "2":
     results["Assassin (sneak, daggers, archery)"] += 1
     results["Marksman (archery, light armor)"] += 1
-    results["Night Blade (daggers, illusion magic, sneak)"]
+    results["Night Blade (daggers, illusion magic, sneak)"] += 1
 elif q4 == "3":
     results["Mage (pure magic user)"] += 1
 
