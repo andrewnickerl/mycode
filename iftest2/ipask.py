@@ -1,6 +1,7 @@
 #! python3
 
 import ipaddress
+
 try:
     ipchk = ipaddress.ip_address(input("Apply an IP address: "))
 except:

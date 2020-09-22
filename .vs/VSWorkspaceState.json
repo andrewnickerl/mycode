@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\custif",
     "\\iftest2"
   ],
-  "SelectedNode": "\\iftest2\\ipask.py",
+  "SelectedNode": "\\custif\\cust_if_script.py",
   "PreviewInSolutionExplorer": false
 }
