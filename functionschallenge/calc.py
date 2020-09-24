@@ -21,8 +21,7 @@ def tryCalculate():
             input_op = ('Input a valid operator (+, -, *, or /): ')
         print(calculate(input_a, input_b, input_op))
     except:
-        input_a = input('Ender a valid first number: ')
-        input_b = input('Enter a valid second number: ')
+        print('One of the numbers you entered is invalid. Please try again.')
         tryCalculate()
 
 tryCalculate()
